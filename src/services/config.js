@@ -3,5 +3,8 @@ export const API_ROUTE = {
   loginUser: "users/login",
   getAllBooks: "books/",
   getById: "books/",
-  addedToCart: "carts/"
+  addedToCart: "carts/",
+  removeFromCart: "carts/",
+  addToWishList: "wishlist/",
+  removeFromWishlist: "wishlist/",
 };

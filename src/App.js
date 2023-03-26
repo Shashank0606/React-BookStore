@@ -10,7 +10,8 @@ import Dashboard from "./dashboard/Dashboard";
 import Bookpar from "./Bookpar/bookpar";
 import "./Bookpar/bookpar.css";
 import { Switch, Route, Routes } from "react-router-dom";
-// import Books from "./components/Books";
+import Cart from "./Cart/cart";
+import "./Cart/cart.css"
 
 function App() {
   return (
@@ -20,10 +21,12 @@ function App() {
       {/* <Dashboard /> */}
       {/* <Bookpar /> */}
 
-      <Routes>
+      {/* <Routes>
         <Route exact path="/" element={<Dashboard />} />
         <Route exact path="/bookpar/:id" element={<Bookpar />} />
-      </Routes>
+      </Routes> */}
+
+      <Cart />
     </div>
   );
 }
