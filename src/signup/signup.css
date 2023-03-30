@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #adadad;
+}
+
+.main-container {
+  height: 420px;
+  width: 700px;
+  display: flex;
+}
+
+.left-box {
+  margin: 20px 0px 20px 20px;
+  width: 45%;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #fff;
+  box-shadow: rgb(79, 79, 79) 0px 0px 2px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-box {
+  border-radius: 10px;
+  width: 55%;
+  box-shadow: rgb(79, 79, 79) 1px 1px 10px 1px;
+  background-color: #fff;
+}
+
+.left-box-text {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.left-box-img {
+  width: 70%;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+}
+
+.heading h2 {
+  font-weight: 500;
+}
+
+.unselected-heading {
+  color: #adadad;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 389px;
+  height: 425px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  opacity: 1;
+  box-shadow: 0px 5px 15px #00000029;
+}
+
+.pageSwitch {
+  display: flex;
+  justify-content: space-between;
+  width: 252px;
+  position: relative;
+  top: 25px;
+}
+
+.textFullName {
+  width: 252px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 30px;
+}
+
+.textEmailId {
+  width: 252px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 30px;
+  margin-top: 20px;
+}
+
+.textPasswordd {
+  width: 252px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 30px;
+  margin-top: 20px;
+}
+
+.textMobile {
+  width: 252px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 30px;
+  margin-top: 20px;
+}
+
+.signUpButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 252px;
+  position: relative;
+  top: 45px;
+}
+
+.extra-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 252px;
+  position: relative;
+  top: 55px;
+}
+
+.or {
+  margin-top: 10px;
+}

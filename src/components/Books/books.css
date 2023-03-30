@@ -1,0 +1,63 @@
+.books {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.book-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-body {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.book-image {
+  padding: 10px 20px;
+}
+
+.book-image img {
+  width: 130px;
+  height: 170px;
+}
+
+.actual-price {
+  text-decoration: line-through;
+}
+
+.bottom-card {
+  padding: 10px 20px;
+  text-align: left;
+  border-top: #e2e2e2 1px solid;
+  background-color: aliceblue;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card a {
+  color: #000;
+}
+
+.sort-select {
+  padding: 5px;
+}

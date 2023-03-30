@@ -1,0 +1,134 @@
+/* .bookInCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+}
+
+.bookDetail {
+    display: flex;
+    flex-direction: row;
+}
+
+.bookImg {
+    margin-right: 20px;
+}
+
+.bookContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.discountPrice {
+    font: normal normal normal 16px/19px Lato;
+    color: #388E3C;
+    margin-right: 10px;
+}
+
+.mainPrice {
+    font: normal normal normal 14px/17px Lato;
+    color: #9D9D9D;
+    text-decoration: line-through;
+}
+
+.counterMainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.countbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.countvalueBoxshow {
+    font: normal normal normal 14px/16px Lato;
+    margin: 0px 10px;
+}
+
+.removeButton {
+    margin-top: 10px;
+}
+
+.MuiButton-root {
+    border-radius: 3px;
+    border: 1px solid #0A0102;
+    background-color: #FFFFFF;
+    color: #0A0102;
+    font: normal normal bold 14px/17px Lato;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.MuiButton-root:hover {
+    background-color: #0A0102;
+    color: #FFFFFF;
+} */
+
+.book {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-title {
+  margin: 0;
+}
+
+.book-author {
+  margin: 0;
+  color: #777;
+}
+
+.book-price {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.book-price span {
+  margin-left: 5px;
+}
+
+.real-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.discounted-price {
+  font-size: 16px;
+  color: #777;
+}
+
+.book-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #f5f5;
+}
